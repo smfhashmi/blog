@@ -1,4 +1,4 @@
-baseURL = "https://hinode-demo.markdumay.org/"
+baseURL = "https://hashmimohammed.gitlab.io/blog"
 canonifyURLs = false
 
 title = "Hinode"

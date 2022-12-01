@@ -48,12 +48,12 @@
         {{ $xxlDim = "1400x600" -}}
     {{ end -}}
 
-    {{ $sm := ($img.Fill (printf "%s webp" $smDim)) -}}
+    <!-- {{ $sm := ($img.Fill (printf "%s webp" $smDim)) -}}
     {{ $md := ($img.Fill (printf "%s webp" $mdDim)) -}}
     {{ $lg := ($img.Fill (printf "%s webp" $lgDim)) -}}
     {{ $xl := ($img.Fill (printf "%s webp" $xlDim)) -}}
     {{ $xxl := ($img.Fill (printf "%s webp" $xxlDim)) -}}
-    {{ $fallback := ($img.Fill (printf "%s jpg" $xxlDim)) -}}
+    {{ $fallback := ($img.Fill (printf "%s jpg" $xxlDim)) -}} -->
 
     {{ with $caption -}}
         <figure class="figure">

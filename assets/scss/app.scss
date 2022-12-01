@@ -53,9 +53,9 @@ $themeColor: {{ site.Params.style.themeColor | default "#007bff" }};
 @import "bootstrap/scss/utilities/api";
 
 // Import Font Awesome
-@import "@fortawesome/fontawesome-free/scss/fontawesome";
-@import "@fortawesome/fontawesome-free/scss/solid";
-@import "@fortawesome/fontawesome-free/scss/brands";
+@import "fortawesome/scss/fontawesome";
+@import "fortawesome/scss/solid";
+@import "fortawesome/scss/brands";
 
 // Import theme styles
 @import "components/blockquote.scss";

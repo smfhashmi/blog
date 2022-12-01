@@ -58,6 +58,12 @@
     {{ with $caption -}}
         <figure class="figure">
             <img class="figure-img img-fluid {{ $innerClass }}"
+                srcset="
+                    {{- with $xxl.RelPermalink -}}{{.}} 1400w{{- end -}}
+                    {{- with $xl.RelPermalink -}}, {{.}} 1200w{{- end -}}
+                    {{- with $lg.RelPermalink -}}, {{.}} 992w{{- end -}}
+                    {{- with $md.RelPermalink -}}, {{.}} 768w{{- end -}}
+                    {{- with $sm.RelPermalink -}}, {{.}} 576w{{- end -}}"
                 sizes="100vw"
                 src="{{ $fallback.RelPermalink }}"
                 alt="{{ $title }}">
@@ -66,6 +72,12 @@
     {{ else -}}
         <div class="ratio ratio-{{ $ratio }} {{ $outerClass }}">
             <img class="img-fluid {{ $innerClass }}"
+                srcset="
+                    {{- with $xxl.RelPermalink -}}{{.}} 1400w{{- end -}}
+                    {{- with $xl.RelPermalink -}}, {{.}} 1200w{{- end -}}
+                    {{- with $lg.RelPermalink -}}, {{.}} 992w{{- end -}}
+                    {{- with $md.RelPermalink -}}, {{.}} 768w{{- end -}}
+                    {{- with $sm.RelPermalink -}}, {{.}} 576w{{- end -}}"
                 sizes="100vw"
                 src="{{ $fallback.RelPermalink }}"
                 alt="{{ $title }}">

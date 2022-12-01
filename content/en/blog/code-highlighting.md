@@ -4,7 +4,7 @@ title: "Code Highlighting"
 date: 2022-04-16
 description: "Examples on how to enable code highlighting"
 tags: ["code"]
-thumbnail: img/notepad.jpg
+thumbnail: img/city.jpg
 credits: Photo by <a href="https://unsplash.com/@frederickjmedina">Frederick Medina</a> on <a href="https://unsplash.com/photos/PdfRE-xB--s">Unsplash</a>
 ---
 

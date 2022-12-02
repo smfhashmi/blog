@@ -4,7 +4,7 @@ const whitelister = require('purgecss-whitelister');
 
 module.exports = {
   plugins: [
-    autoprefixer(),
+    require('autoprefixer'),
     purgecss({
       content: [
         './layouts/**/*.html',

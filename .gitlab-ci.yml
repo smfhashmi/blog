@@ -1,13 +1,26 @@
-image: registry.gitlab.com/pages/hugo/hugo_extended:0.100.0
+image: registry.gitlab.com/pages/hugo/hugo_extended
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
-pages:
+.job_templae: &script
+  before_script:
+    - apk add --update npm nodejs git
+    - npm update
+    - npm install -D --save autoprefixer
+    - npm install -D --save postcss-cli
   script:
-  - hugo
+  - hugo --minify --gc
+
+test:
+  <<: *script
+
+pages:
+  <<: *script
   artifacts:
     paths:
     - public
+  only:
+    - main
   rules:
   - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH

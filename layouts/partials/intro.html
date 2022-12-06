@@ -9,7 +9,7 @@
             {{ end }}
         </div>
         <div class="col col-sm-6 col-md-4">
-            {{ if .Site.Params.main.featurePhoto }}
+            {{ if .Site.Params.main.featurePhoto1 }}
                 {{- partial "image.html" (dict "url" .Site.Params.main.featurePhoto "ratio" "4x3" "outerClass" "img-wrap" "innerClass" "rounded" "title" .Site.Params.title) -}}
             {{ end }}
         </div>

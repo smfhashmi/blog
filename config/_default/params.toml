@@ -1,8 +1,8 @@
 ## Homepage
-title = "Hinode"
+title = "Hashmi"
 titleSeparator = "-"
-titleAddition = "Clean Blog Theme"
-description = "Hinode is a clean blog theme for your Hugo site based on Bootstrap 5."
+titleAddition = "Clean and simple Blog"
+description = "Hashmi is a clean blog"
 
 ## Open Graph
 images = ["logo.png"]
@@ -15,21 +15,19 @@ domainTLD = "hinode-demo.markdumay.org"
 
 ## JSON-LD
 schemaType = "Organization"
-schemaName = "Hinode"
-schemaAuthor = "Mark Dumay"
-schemaAuthorTwitter = "https://twitter.com/markdumay"
-schemaAuthorLinkedIn = "https://www.linkedin.com/in/markdumay/"
-schemaAuthorGitHub = "https://github.com/markdumay"
+schemaName = "Hashmi"
+schemaAuthor = "Hashmi Mohammed"
+schemaAuthorTwitter = "https://twitter.com/hashmi_smf"
+schemaAuthorLinkedIn = "https://www.linkedin.com/in/hashmi-mohammed-b343b810a/"
+schemaAuthorGitHub = "https://github.com/hashmee"
+schemaAuthorGitLab = "https://github.com/hashmi.smf"
 schemaLocale = "en-US"
 schemaLogo = "img/logo512x512.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "img/logo1280x640.png"
+schemaImage = "img/logo512x512.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
-# schemaTwitter = "https://twitter.com/gethinode"
-# schemaLinkedIn = ""
-schemaGitHub = "https://github.com/markdumay/hugo-theme-hinode"
 schemaSection = "blog"
 
 
@@ -49,7 +47,7 @@ schemaSection = "blog"
 
 [main]
     featurePhoto = "/img/sunrise.jpg" # source: https://unsplash.com/photos/ZX6BPboJrYk
-    logo = "/img/logo_embedded.svg"
+    logo = "/blog/img/logo_embedded.svg"
 
 
 [comments]

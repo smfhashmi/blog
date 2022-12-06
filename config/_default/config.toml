@@ -1,7 +1,7 @@
 baseURL = "https://hashmimohammed.gitlab.io/blog"
 canonifyURLs = false
 
-title = "Hinode"
+title = "Hashmi Mohammed"
 author = "Hashmi Mohammed"
 copyright = "Copyright © 2022 Hashmi Mohammed."
 paginate = 9
@@ -19,7 +19,7 @@ disableLanguages = ["nl"]
 
 
 
-mainSections = ["blog", "projects"]
+mainSections = ["articles", "projects"]
 
 [taxonomies]
   tag = 'tags'

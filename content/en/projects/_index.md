@@ -1,4 +1,4 @@
 ---
 author: Hashmi Mohammed
-title: Articles
+title: Projects
 ---

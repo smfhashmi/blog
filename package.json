@@ -1,7 +1,7 @@
 {
   "name": "@hashmimohammed/blog",
   "version": "0.5.5",
-  "description": "Hinode is a clean blog theme for Hugo, an open-source static site generator",
+  "description": "Hashmi is a clean and simple blog",
   "main": "index.js",
   "publishConfig": {
     "access": "public",
@@ -38,7 +38,7 @@
     "type": "git",
     "url": "git+https://github.com/hashmimohammed/blog.git"
   },
-  "author": "",
+  "author": "Hashmi Mohammed",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hashmimohammed/blog/issues"

@@ -13,7 +13,7 @@
                                 {{ .Count }} {{ if gt .Count 1 }} Articles {{ else }} Article {{ end }}
                             </div>
                             <div class="col">
-                                <a href="/tags{{ .Name | relURL }}">{{ .Name | markdownify }}</a>
+                                <a href="/blog/tags/{{ .Name }}">{{ .Name | markdownify }}</a>
                             </div>
                         </div>
                     {{ end }}

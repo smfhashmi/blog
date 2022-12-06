@@ -4,8 +4,8 @@
   weight = 10
 
 [[main]]
-  name = "Blog"
-  url = "/blog/"
+  name = "Articles"
+  url = "/articles/"
   weight = 20
 
 [[main]]
@@ -23,15 +23,3 @@
   pre = "<i class=\"fab fa-linkedin fa-2x\"></i>"
   url = "https://linkedin.com/"
   weight = 10
-
-[[social]]
-  name = "GitHub"
-  pre = "<i class=\"fab fa-github fa-2x\"></i>"
-  url = "https://github.com/"
-  weight = 20
-
-[[social]]
-  name = "Medium"
-  pre = "<i class=\"fab fa-medium fa-2x\"></i>"
-  url = "https://medium.com/"
-  weight = 30

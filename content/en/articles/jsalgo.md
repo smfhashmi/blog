@@ -5,7 +5,7 @@ date: 2022-12-06
 description: "I am learning js alogrithms"
 tags: ["algorithms", "js"]
 # thumbnail: img/dunes.jpg
-thumbnail: https://picsum.photos/400
+# thumbnail: https://picsum.photos/400
 ---
 Javascript Algorithms Notes
 ===========================
@@ -195,15 +195,3 @@ console.log(powerofTwo(64));
                         
                         
                     
-
-Recurrsion
-----------
-
-few points to note
-
-*   every recursion should have a base case and condition to terminate the recursion
-*   it will solve a problem but it does not always translate to a faster solution
-*   it is not straight forward to understand, do not give up
-
-Recursive fibonacci sequence
-----------------------------

@@ -1,9 +1,9 @@
 ---
 author: "Hashmi Mohammed"
-title: "Recursive Fibonacci series"
+title: "Recursion"
 date: 2022-12-08
 description: "this recurisive function for jsalgo"
-tags: ["recursion", "algorithms", "recursive fibonacci"]
+tags: ["recursion", "algorithms", "recursive fibonacci", "recursive factorial"]
 ---
 Recurrsion 
 ----------
@@ -55,3 +55,23 @@ function recursiveFibonacci(n) {
 console.log(recursiveFibonacci(5))
 ```
 *For Fibonacci recursive is not a feasible solution because it is O(2^n) iterative BigO is good O(n)*
+
+
+
+Recursive Factorial
+-------------------
+<kbd>n! = n * (n-1)</kbd>
+
+```javascript
+
+function recursiveFactorial(n){
+    if(n == 0){
+        return 1
+    }
+    return n * recursiveFactorial(n-1)
+}
+
+console.log(recursiveFactorial(6))
+```
+
+*BigO = O(n) liner time complexity*

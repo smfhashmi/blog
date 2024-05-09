@@ -1,9 +1,9 @@
-baseURL = "https://hashmimohammed.gitlab.io/blog"
+baseURL = "/"
 canonifyURLs = false
 
 title = "Hashmi Mohammed"
 author = "Hashmi Mohammed"
-copyright = "Copyright © 2022 Hashmi Mohammed."
+copyright = "Copyright © 2024 Hashmi Mohammed."
 paginate = 9
 enableRobotsTXT = true
 languageCode = "en-us"

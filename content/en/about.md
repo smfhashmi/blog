@@ -6,5 +6,5 @@ showComments: false
 ---
 
 <p class="text-center">
-  I write articles and projects related to my work
+  I code
 </p>

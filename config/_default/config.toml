@@ -19,7 +19,7 @@ disableLanguages = ["nl"]
 
 
 
-mainSections = ["articles", "projects"]
+mainSections = ["articles"]
 
 [taxonomies]
   tag = 'tags'

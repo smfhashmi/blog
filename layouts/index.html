@@ -4,7 +4,7 @@
   <h1>Recent</h1>
   <div class="container-fluid p-0">
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
-      {{ $items := first 3 ($taxonomy.Pages.ByDate.Reverse) -}} {{ $max := sub
+      {{ $items := first 10 ($taxonomy.Pages.ByDate.Reverse) -}} {{ $max := sub
       (len $items) 1 -}} {{ range $index, $element := $items -}}
       <div class="col gx-4">
         {{- partial "assets/article-card.html" $element -}}

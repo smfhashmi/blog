@@ -114,3 +114,43 @@ fn(1,2,3,4,5,6)
 
 a callback function is a function which gets passed as the argument to 
 another function and then gets executed inside the other function
+
+### arrow functions
+
+``` javascript
+const add = function(num1, num2) {
+  return num1 + num2
+}
+
+const add = () => {
+  return num1 + num2
+}
+```
+
+* arrow functions are used for cleaner syntax
+
+* implicit "return" keyword
+
+``` javascript
+const add = (num1, num2) => num1 + num2
+```
+
+* in arrow function we can't able to pass aruguments keyword
+
+``` javascript
+// normal function
+function normal () {
+  console.log(arguments)
+}
+
+console.log(normal(1,2,3,4))
+// this will work
+
+const argumentArrow = () => {
+  console.log(arguments)
+}
+
+console.log(argumentArrow(1,2,34));
+// this will not work in arrow function as for arrow function we need to define
+// arguments
+```

@@ -154,3 +154,21 @@ console.log(argumentArrow(1,2,34));
 // this will not work in arrow function as for arrow function we need to define
 // arguments
 ```
+
+
+* using the *this* keyword
+
+```javascript
+let user = {
+  name: 'hashmi',
+  rc1: () => {
+    console.log(`I am ${this.name}`);
+  },
+  rc2() => {
+    console.log(`I am ${this.name}`);
+  }
+}
+
+console.log(`this is rc1 output , ${user.rc1()}`);
+console.log(`this is rc2 output , ${user.rc2()}`);
+```

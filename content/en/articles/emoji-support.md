@@ -4,9 +4,7 @@ title: "Emoji Support"
 date: 2021-07-15
 description: "Guide to emoji usage in Hugo"
 tags: ["emoji"]
-# thumbnail: img/dunes.jpg
-# thumbnail: https://picsum.photos/id/184/4288/2848.jpg
-# credits: Photo by <a href="https://unsplash.com/@timdegroot">Tim de Groot</a> on <a href="https://unsplash.com/photos/yNGQ830uFB4">Unsplash</a>
+thumbnail: https://images.pexels.com/photos/1089440/pexels-photo-1089440.jpeg
 ---
 
 Emoji can be enabled in a Hugo project in a number of ways.
@@ -20,4 +18,4 @@ To enable emoji globally, set `enableEmoji` to `true` in your site's [configurat
 <p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
 <br>
 
-The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference for emoji shorthand codes.
+The [Emoji cheat sheet](https://gohugo.io/quick-reference/emojis/#smileys--emotion/) is a useful reference for emoji shorthand codes.

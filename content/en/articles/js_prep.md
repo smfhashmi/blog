@@ -4,6 +4,7 @@ author: "Hashmi Mohammed"
 title: "JS preparation functions 2025"
 date: 2025-01-14
 description: "practicing function expressions callbacks IIFE, hoisting, scope"
+thumbnail: https://images.pexels.com/photos/6804604/pexels-photo-6804604.jpeg
 tags: ["js_prep_2025", "functions"]
 ---
 

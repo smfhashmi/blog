@@ -9,10 +9,11 @@
     integrity="sha256-i3A0NZGkhsKjVMzFxv3ksk0DZh3aXqu0l49Bbh0MdjE=" 
     crossorigin="anonymous">
 </script>
-
 {{ $indexTemplate := resources.Get "js/index.js" -}}
 {{ $jsIndex := $indexTemplate | resources.ExecuteAsTemplate "index.js" . }}
 {{ $js := (slice $jsIndex) | resources.Concat "js/main.js" }}
+
+<script src="/assets/js/practo.js"></script>
 
 {{ if not hugo.IsProduction }}
     <script src="{{ $js.RelPermalink }}"></script>

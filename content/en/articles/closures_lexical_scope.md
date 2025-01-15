@@ -1,14 +1,14 @@
 ---
 author: "Hashmi Mohammed"
 title: "Closures | Lexical scope"
-date: 2025-01-14
+date: 2025-01-15
 description: "practicing closures and lexical scope and output based questions"
 thumbnail: https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg
 tags: ["js_prep_2025", "closures"]
 ---
 # Closures in javascript
 
-### Lexical scope
+## Lexical scope
 
 a lexical scope in javascript means a variable defined outside the function can
 be accessible inside a function and the opposite is not true
@@ -35,3 +35,18 @@ function local() {
 }
 console.log(username);
 ```
+## closure
+
+```javascript
+// global scope
+function local() {
+  var username = 'hashmi'
+  function displayName() {
+    alert(username)
+  }
+  displayName()
+}
+local()
+```
+
+- the `displayName` function in the local is called closure

@@ -3,6 +3,7 @@ author: "Hashmi Mohammed"
 title: "Search Algorithms"
 date: 2022-12-08
 description: "this is search algorithms post"
+thumbnail: https://images.pexels.com/photos/17485657/pexels-photo-17485657/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-depicts-how-ai-could-adapt-to-an-infinite-amount-of-uses-it-was-created-by-nidia-dias-as-part-of-the-visualising-ai-pr.png
 tags: ["linear search", "Binary search"]
 ---
 ![biochart: bigocomplexity](/blog/img/bigocomplexity_chart.png)

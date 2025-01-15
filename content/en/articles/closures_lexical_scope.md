@@ -50,3 +50,22 @@ local()
 ```
 
 - the `displayName` function in the local is called closure
+
+## uses
+
+- closures makes it possible functions to have private variables
+- closures make sure to control what is there and not present in a function
+
+``` javascript
+function myfunc() {
+  var name = 'hashmi'
+  function displayName() {
+    console.log(`displayname is ${name}`)
+  }
+  return displayName;
+}
+
+myfunc()();
+```
+
+- we can called the insider function with double parathesis
